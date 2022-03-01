@@ -152,10 +152,8 @@ class Bulk_Upgrader_Skin extends WP_Upgrader_Skin {
 		}
 		if ( $this->result && ! is_wp_error( $this->result ) ) {
 			if ( ! $this->error ) {
-				echo '<div class="updated js-update-details" data-update-details="progress-' . esc_attr( $this->upgrader->update_current ) . '">' .
-					'<p>' . sprintf( $this->upgrader->strings['skin_update_successful'], $title ) .
-					' <button type="button" class="hide-if-no-js button-link js-update-details-toggle" aria-expanded="false">' . __( 'Show details.' ) . '</button>' .
-					'</p></div>';
+				echo '<div class="updated"><p>' . sprintf($this->upgrader->strings['skin_update_successful'], $title, 'jQuery(\'#progress-' . esc_js($this->upgrader->update_current) . '\').toggle();jQuery(\'span\', this).toggle(); return false;') . '</p></div>';
+				echo '<script type="text/javascript">jQuery(\'.waiting-' . esc_js($this->upgrader->update_current) . '\').hide();</script>';
 			}
 
 			echo '<script type="text/javascript">jQuery(\'.waiting-' . esc_js( $this->upgrader->update_current ) . '\').hide();</script>';
