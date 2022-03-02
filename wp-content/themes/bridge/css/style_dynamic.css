@@ -28,7 +28,7 @@
 		
 						header.fixed_hiding .q_logo a,
 				header.fixed_hiding .q_logo{
-				max-height: 28px;
+				max-height: 0px;
 				}
 				
 		
@@ -95,10 +95,10 @@
 				
 		
 					.footer_top_holder,	footer #lang_sel > ul > li > a,	footer #lang_sel_click > ul > li > a{
-			background-color: #000000;
+			background-color: #121212;
 			}
 			footer #lang_sel ul ul a,footer #lang_sel_click ul ul a,footer #lang_sel ul ul a:visited,footer #lang_sel_click ul ul a:visited{
-			background-color: #000000 !important;
+			background-color: #121212 !important;
 			}
 		
 		
@@ -112,6 +112,21 @@
 		
 		
 		
+					.footer_top,
+			.footer_top .footer_col1,
+			.footer_top .container_inner > .widget,
+			.footer_top.footer_top_full > .widget{
+			text-align: left;
+			}
+					.footer_top .footer_col2{
+			text-align: left;
+			}
+					.footer_top .footer_col3{
+			text-align: left;
+			}
+					.footer_top .footer_col4{
+			text-align: right;
+			}
 		
 		
 		

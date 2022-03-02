@@ -29,10 +29,7 @@
 																
 		var logo_height = 130; // proya logo height
 		var logo_width = 280; // proya logo width
-								logo_height = 57;
-						logo_width = 186;
-
-											header_top_height = 0;
+								header_top_height = 0;
 					var loading_text;
 				loading_text = 'Loading new posts...';
 				var finished_text;
