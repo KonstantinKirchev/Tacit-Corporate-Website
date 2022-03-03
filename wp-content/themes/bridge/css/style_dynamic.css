@@ -102,7 +102,30 @@
 			}
 		
 		
-								
+					.footer_top .column_inner > div h2,
+			.footer_top .column_inner > div h3,
+			.footer_top .column_inner > div h4,
+			.footer_top .column_inner > div h5,
+			.footer_top .column_inner > div h6 {
+			color:#ffffff;
+			}
+							.footer_top,
+			.footer_top p,
+			.footer_top span,
+			.footer_top li,
+			.footer_top .textwidget,
+			.footer_top .widget_recent_entries>ul>li>span {
+			color: #ffffff;
+			}
+							.footer_top a:not(.qbutton)
+			{
+			color: #ffffff !important;
+			}
+
+			.footer_top .q_social_icon_holder .simple_social {
+			color: #ffffff;
+			}
+				
 		
 		
 		
