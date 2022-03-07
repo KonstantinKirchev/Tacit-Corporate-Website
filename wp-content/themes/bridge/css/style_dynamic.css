@@ -3,7 +3,10 @@
 		
 		
 								
-								
+					body{
+											font-family: 'Montserrat', sans-serif;
+															}
+											
 		
 		
 		
@@ -49,6 +52,10 @@
 			}
 
 		
+					nav.main_menu > ul > li > a{
+										font-family: 'Montserrat', sans-serif;
+																								}
+
 		
 		
 		
@@ -57,12 +64,66 @@
 
 		
 
-																		
+					.drop_down .second .inner > ul > li > a,
+			.drop_down .second .inner > ul > li > h3,
+			.drop_down .wide .second .inner > ul > li > h3,
+			.drop_down .wide .second .inner > ul > li > a,
+			.drop_down .wide .second ul li ul li.menu-item-has-children > a,
+			.drop_down .wide .second .inner ul li.sub ul li.menu-item-has-children > a,
+			.drop_down .wide .second .inner > ul li.sub .flexslider ul li  h5 a,
+			.drop_down .wide .second .inner > ul li .flexslider ul li  h5 a,
+			.drop_down .wide .second .inner > ul li.sub .flexslider ul li  h5,
+			.drop_down .wide .second .inner > ul li .flexslider ul li  h5,
+			.header_top #lang_sel ul li ul li a {
+										font-family: 'Montserrat', sans-serif !important;
+																								}
+											.drop_down .second ul li{
+			border-bottom-style:solid;
+			}
+			li.narrow .second .inner ul{
+			padding-top:0;
+			padding-bottom:0;
+			}
+			.drop_down .second .inner ul li ul{
+			top:0;
+			}
+									.drop_down .wide .second .inner>ul>li>a
+			{
+										font-family: 'Montserrat', sans-serif !important;
+																								}
+									.drop_down .wide .second .inner ul li.sub ul li a,
+			.drop_down .wide .second ul li ul li a,
+			.drop_down .second .inner ul li.sub ul li a,
+			.drop_down .wide .second ul li ul li a,
+			.drop_down .wide .second .inner ul li.sub .flexslider ul li .menu_recent_post,
+			.drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post a,
+			.drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post,
+			.drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post a{
+										font-family: 'Montserrat', sans-serif;
+																								}
+			.drop_down .wide.icons .second i{
+						}
+				
 
+					header.scrolled nav.main_menu > ul > li > a,
+			header.light.scrolled nav.main_menu > ul > li > a,
+			header.dark.scrolled nav.main_menu > ul > li > a{
+										font-family: 'Montserrat', sans-serif !important;
+																								}
 						
+					header.sticky nav.main_menu > ul > li > a,
+			header.light.sticky nav.main_menu > ul > li > a,
+			header.dark.sticky nav.main_menu > ul > li > a{
+										font-family: 'Montserrat', sans-serif !important;
+																								}
 		
 		
 		
+					nav.mobile_menu ul li a,
+			nav.mobile_menu ul li h3{
+										font-family: 'Montserrat', sans-serif;
+																								}
+
 		
 		
 				
@@ -70,14 +131,110 @@
 		
 		
 		
-				
+					h1,
+			.h1,
+			.title h1,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h1.elementor-heading-title{
+										font-family: 'Montserrat', sans-serif;
+																								}
+							.title h1{
+										font-family: 'Montserrat', sans-serif;
+																					}
 		
-																
-
-						
+		
+											h2,
+			.h2,
+			h2 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h2.elementor-heading-title {
+										font-family: 'Montserrat', sans-serif;
+																								}
+							h3,
+			.h3,
+			h3 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h3.elementor-heading-title {
+										font-family: 'Montserrat', sans-serif;
+																								}
+							h4,
+			.h4,
+			h4 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h4.elementor-heading-title {
+										font-family: 'Montserrat', sans-serif;
+																								}
+							h5,
+			.h5,
+			h5 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h5.elementor-heading-title,
+			.q_icon_with_title .icon_text_holder h5.icon_title{
+										font-family: 'Montserrat', sans-serif;
+																								}
+							h6,
+			.h6,
+			h6 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h6.elementor-heading-title {
+										font-family: 'Montserrat', sans-serif;
+																								}
 
 		
-				
+
+					p,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading p.elementor-heading-title {
+										font-family: 'Montserrat', sans-serif;
+																								}
+			.filter_holder ul li span,
+			blockquote h5,
+			.q_social_icon_holder .simple_social,
+			.header-widget.widget_nav_menu ul.menu li a,
+			.side_menu a,
+			.side_menu li,
+			.side_menu span,
+			.side_menu p,
+			.side_menu .widget.widget_rss li a.rsswidget,
+			.side_menu #wp-calendar caption,
+			.side_menu #wp-calendar th,
+			.side_menu #wp-calendar td,
+			aside .widget #lang_sel_list li a,
+			aside .widget #lang_sel li a,
+			aside .widget #lang_sel_click li a,
+			.wpb_widgetised_column .widget #lang_sel_list li a,
+			.wpb_widgetised_column .widget #lang_sel li a,
+			.wpb_widgetised_column .widget #lang_sel_click li a,
+            .elementor-widget.elementor-widget-sidebar .widget #lang_sel_list li a,
+            .elementor-widget.elementor-widget-sidebar .widget #lang_sel li a,
+            .elementor-widget.elementor-widget-sidebar .widget #lang_sel_click li a,
+			section.side_menu #lang_sel_list li a,
+			section.side_menu #lang_sel li a,
+			section.side_menu #lang_sel_click li a,
+			footer #lang_sel_list li a,
+			footer #lang_sel li a,
+			footer #lang_sel_click li a,
+			footer #lang_sel_list.lang_sel_list_horizontal a,
+			footer #lang_sel_list.lang_sel_list_vertical a,
+			.side_menu #lang_sel_list.lang_sel_list_horizontal a,
+			.side_menu #lang_sel_list.lang_sel_list_vertical a,
+			#lang_sel_footer a{
+						}
+			.header_top #lang_sel > ul > li > a,
+			.header_top #lang_sel_click > ul > li> a,
+			footer #lang_sel ul li a,
+			footer #lang_sel ul ul a,
+			footer #lang_sel_click ul li a,
+			footer #lang_sel_click ul ul a,
+			footer #lang_sel_click ul ul a span,
+			section.side_menu #lang_sel ul li a,
+			section.side_menu #lang_sel ul ul a,
+			section.side_menu #lang_sel ul ul a:visited,
+			section.side_menu #lang_sel_click > ul > li > a,
+			section.side_menu #lang_sel_click ul ul a,
+			section.side_menu #lang_sel_click ul ul a:visited{
+						}
+									
+
+					.subtitle {
+			font-family: "Montserrat";			}
+			
+							.title .text_above_title {
+			font-family: "Montserrat";			}
+			
 				
 		
 		
@@ -126,14 +283,29 @@
 			color: #ffffff;
 			}
 				
+					.footer_top_holder{
+			background: url(http://localhost/tacit/Tacit-Corporate-Website/wp-content/uploads/2022/03/Group-326.png) no-repeat;
+			background-size: cover;
+			}
 		
 		
 		
 		
 
 		
+					.footer_top h5 {
+			font-family: "Montserrat", sans-serif			}
 		
+					.footer_top,
+			.footer_top p,
+			.footer_top span:not(.q_social_icon_holder):not(.fa-stack):not(.qode_icon_shortcode):not(.qode_icon_font_elegant):not(.qode-icon-kiko),
+			.footer_top li,
+			.footer_top .textwidget,
+			.footer_top .widget_recent_entries>ul>li>span{
+			font-family: "Montserrat", sans-serif			}
 		
+					.footer_top a:not(.qbutton) {
+			font-family: "Montserrat", sans-serif			}
 		
 					.footer_top,
 			.footer_top .footer_col1,
@@ -151,7 +323,16 @@
 			text-align: right;
 			}
 		
+					.footer_bottom_holder,
+			.footer_bottom,
+			.footer_bottom p,
+			.footer_bottom_holder p,
+			.footer_bottom span:not(.q_social_icon_holder):not(.fa-stack):not(.qode_icon_font_elegant){
+			font-family: "Montserrat", sans-serif			}
 		
+					.footer_bottom_holder a,
+			.footer_bottom_holder ul li a{
+			font-family: "Montserrat", sans-serif			}
 		
 		
 		
@@ -255,7 +436,17 @@
 		
 		
 		
-		
+					.header_top .q_social_icon_holder .simple_social:not(.qode_icon_font_elegant):not(.qode_icon_font_awesome),
+			.header_top .header-widget,
+			.header_top .header-widget.widget_nav_menu ul.menu>li>a,
+			.header_top .header-widget p,
+			.header_top .header-widget a,
+			.header_top .header-widget span:not(.qode_icon_font_elegant):not(.qode_icon_font_awesome) {
+			font-family: "Montserrat";			}
+
+						.filter_holder ul li span {
+			font-family: Montserrat;			}
+			
 		
 																													.portfolio_main_holder .item_holder.thin_plus_only .thin_plus_only_icon {
 			font-family: 			}
@@ -347,12 +538,19 @@
 		
 								
 		
+					@media only screen and (min-width: 1000px){
+			body.vertical_menu_enabled:not(.vertical_menu_hidden) .ajax_loader {
+			margin-left:0;
+			}
+			}
 		
 				
 				
 				
 				
-										
+		.breadcrumb, .breadcrumb .current, .breadcrumb a { font-family: Montserrat;}
+
+								
 
 		
 		
