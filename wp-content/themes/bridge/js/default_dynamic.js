@@ -151,8 +151,8 @@
 		}
 
 		var no_ajax_pages = [];
-		var qode_root = 'http://localhost/tacit/Tacit-Corporate-Website/';
-		var theme_root = 'http://localhost/tacit/Tacit-Corporate-Website/wp-content/themes/bridge/';
+		var qode_root = 'https://tacit.demomaegan.co/';
+		var theme_root = 'https://tacit.demomaegan.co/wp-content/themes/bridge/';
 					var header_style_admin = "";
 				if(typeof no_ajax_obj !== 'undefined') {
 		no_ajax_pages = no_ajax_obj.no_ajax_pages;

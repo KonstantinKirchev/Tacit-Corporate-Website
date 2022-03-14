@@ -1,5 +1,13 @@
 
-				
+					/* Webkit */
+			::selection {
+			background: #51baea;
+			}
+							/* Gecko/Mozilla */
+			::-moz-selection {
+			background: #51baea;
+			}
+		
 		
 		
 								
@@ -77,17 +85,7 @@
 			.header_top #lang_sel ul li ul li a {
 										font-family: 'Montserrat', sans-serif !important;
 																								}
-											.drop_down .second ul li{
-			border-bottom-style:solid;
-			}
-			li.narrow .second .inner ul{
-			padding-top:0;
-			padding-bottom:0;
-			}
-			.drop_down .second .inner ul li ul{
-			top:0;
-			}
-									.drop_down .wide .second .inner>ul>li>a
+															.drop_down .wide .second .inner>ul>li>a
 			{
 										font-family: 'Montserrat', sans-serif !important;
 																								}
@@ -284,7 +282,7 @@
 			}
 				
 					.footer_top_holder{
-			background: url(http://localhost/tacit/Tacit-Corporate-Website/wp-content/uploads/2022/03/Group-326.png) no-repeat;
+			background: url(https://tacit.demomaegan.co/wp-content/uploads/2022/03/Group-326.png) no-repeat;
 			background-size: cover;
 			}
 		
@@ -450,7 +448,20 @@
 		
 																													.portfolio_main_holder .item_holder.thin_plus_only .thin_plus_only_icon {
 			font-family: 			}
-								
+						
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+																																																																													
 		
 		
 				
